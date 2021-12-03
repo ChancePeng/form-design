@@ -1,0 +1,54 @@
+.designer{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  .control{
+    width: 100%;
+    padding:10px 20px;
+    position: relative;
+    cursor: pointer;
+    border-left:5px solid #FFF;
+    transition: all 300ms;
+    &.active{
+      background-color: #d6ebff;
+      border-left:5px solid #47aeda;
+      &:hover{
+        background-color: #d6ebff;
+        border-left:5px solid #47aeda;
+      }
+    }
+    &.drag-enter{
+      margin-top:3px;
+      background-color: #E9F3FD;
+      &::before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        background-color: red;
+        left:0;
+        z-index:4;
+        top: -3px;
+      }
+    }
+    >div{
+      z-index:2;
+    }
+    &::before{
+      content:'';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left:0;
+      z-index:4;
+      top: 0;
+    }
+    &:hover{
+      background-color: #E9F3FD;
+      border-left:5px solid #E9F3FD;;
+    }
+  }
+}

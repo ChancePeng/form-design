@@ -1,0 +1,4 @@
+/node_modules
+/public
+# /dev-config.js
+/test.js

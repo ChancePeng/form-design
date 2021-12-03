@@ -1,0 +1,29 @@
+.control-list-content{
+  min-width:300px;
+  >div{
+    .title{
+      color:#304265;
+      font-weight: bolder;
+      margin:0 0 20px 0;
+    }
+    .control-list-each-row{
+      font-size: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      >span{
+        display: block;
+        background-color: #F4F8FC;
+        text-align: center;
+        line-height: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+        flex:0 0 45%;
+        cursor: pointer;
+        &:hover{
+          background-color: #e6f2ff;
+        }
+      }
+    }
+  }
+}
