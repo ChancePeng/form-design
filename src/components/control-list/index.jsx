@@ -1,7 +1,7 @@
 import React from 'react';
 import { ControlDill } from '@design';
 import { DragDataKey } from 'common/typing';
-import 'control-list/index.scss';
+import 'control-list/index.less';
 
 const { CONTROL_MOVE_TYPE, CONTROL_TYPE, CREATE } = DragDataKey;
 

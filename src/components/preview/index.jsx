@@ -2,7 +2,7 @@ import React from 'react';
 import { CloseOutlined } from '@ant-design/icons';
 import {ControlMap} from '@design';
 
-import 'preview/index.scss';
+import 'preview/index.less';
 import loadable from 'utils/loadable';
 
 export default function Preview(props) {

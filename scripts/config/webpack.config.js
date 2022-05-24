@@ -41,10 +41,6 @@ const config = {
         use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
-        test: /\.scss$/,
-        use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
-      },
-      {
         test: /\.less$/,
         use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'less-loader'],
       },

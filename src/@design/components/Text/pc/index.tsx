@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ControlOption } from '@magpie_cloud';
 import { Input, Tooltip } from 'antd';
 
-import '@design/components/Text/pc/index.scss';
+import '@design/components/Text/pc/index.less';
 
 const Text:React.FC<ControlOption> = (props) => {
   const { DisplayName = '单行输入', DefaultValue, PlaceHolder } = props;

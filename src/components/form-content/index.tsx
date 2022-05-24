@@ -2,7 +2,7 @@ import * as React from 'react';
 import { FormControl, generateFormControlExample } from '@magpie_cloud';
 import { Form, Tabs } from 'antd';
 
-import 'form-content/index.scss';
+import 'form-content/index.less';
 
 interface PropType {
   formData:FormControl | null | undefined,

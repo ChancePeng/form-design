@@ -8,7 +8,7 @@ import { ControlMap } from '@design';
 import loadable from 'utils/loadable';
 import { DragDataKey } from '../common/typing';
 
-import 'designer/index.scss';
+import 'designer/index.less';
 
 interface ProprType {
   pageData:Array<Control>,

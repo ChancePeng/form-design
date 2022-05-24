@@ -1,7 +1,7 @@
 import React from 'react';
 import { CloseSquareOutlined, EyeOutlined, FileDoneOutlined } from '@ant-design/icons';
 
-import 'design-operate/index.scss';
+import 'design-operate/index.less';
 
 export default function DesignOperate(props) {
   const { onSave, onPreview } = props;

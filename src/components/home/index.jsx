@@ -5,7 +5,7 @@ import FormContent from 'form-content';
 import DesignOpeate from 'design-operate';
 import Previcw from 'preview';
 import _remove from 'lodash/remove';
-import 'home/index.scss';
+import 'home/index.less';
 
 export default function App() {
   const [pageData, setPageData] = useState([]);// 页面所有的Control
